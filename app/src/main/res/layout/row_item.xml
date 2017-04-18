@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="To:" />
+
+    <TextView
+        android:id="@+id/tv_to_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/tv_to"
+        android:layout_alignBottom="@+id/tv_to"
+        android:layout_toRightOf="@+id/tv_subject"
+        android:layout_toEndOf="@+id/tv_subject" />
+
+    <TextView
+        android:id="@+id/tv_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_to"
+        android:layout_alignStart="@+id/tv_to"
+        android:layout_below="@+id/tv_to"
+        android:layout_marginTop="20dp"
+        android:text="From:" />
+
+    <TextView
+        android:id="@+id/tv_from_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_above="@+id/tv_subject"
+        android:layout_toRightOf="@+id/tv_subject"
+        android:layout_toEndOf="@+id/tv_subject" />
+
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_from"
+        android:layout_alignStart="@+id/tv_from"
+        android:layout_below="@+id/tv_from"
+        android:layout_marginTop="20dp"
+        android:text="Subject:" />
+
+    <TextView
+        android:id="@+id/tv_sub_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/tv_subject"
+        android:layout_alignBottom="@+id/tv_subject"
+        android:layout_toRightOf="@+id/tv_subject"
+        android:layout_toEndOf="@+id/tv_subject" />
+
+    <TextView
+        android:id="@+id/tv_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_subject"
+        android:layout_alignStart="@+id/tv_subject"
+        android:layout_below="@+id/tv_subject"
+        android:layout_marginTop="20dp"
+        android:text="Body:" />
+
+    <TextView
+        android:id="@+id/tv_body_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/tv_body"
+        android:layout_alignBottom="@+id/tv_body"
+        android:layout_toRightOf="@+id/tv_subject"
+        android:layout_toEndOf="@+id/tv_subject" />
+</RelativeLayout>

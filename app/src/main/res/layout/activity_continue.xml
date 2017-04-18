@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madhu.emailapp_original.ContinueActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/btn_send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/send_emails"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btn_add_info"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_add_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/addInfo"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewInstr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:padding="20dp"
+        android:text="@string/instr"
+        android:textSize="20dp"
+        tools:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>
